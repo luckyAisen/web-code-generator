@@ -1,0 +1,43 @@
+{
+  "name": "web-code-generator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "gulp clean",
+    "serve": "gulp serve",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aisen60/web-code-generator.git"
+  },
+  "keywords": [],
+  "author": "Aisen60 <caixusheng60@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aisen60/web-code-generator/issues"
+  },
+  "homepage": "https://github.com/Aisen60/web-code-generator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jsoneditor": "^9.1.9",
+    "normalize.css": "^8.0.1"
+  }
+}

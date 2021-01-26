@@ -54,8 +54,6 @@ export default class Code extends Component {
   }
 
   changeCode(value) {
-    console.log(this);
-    debugger;
     this.setState(() => ({ value }));
   }
 
